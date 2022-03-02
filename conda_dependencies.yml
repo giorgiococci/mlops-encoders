@@ -1,0 +1,7 @@
+dependencies:
+- python=3.8
+- pip:
+  - pandas
+  - sklearn
+  - category_encoders
+name: mlops-encoders
