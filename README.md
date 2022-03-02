@@ -4,7 +4,7 @@ Create conda environment from conda_dependencies.yml:
 conda env create -f conda_dependencies.yml
 conda activate mlops-encoders
 ```
-Update the coda environment:
+Update the conda environment:
 ```bash
 conda deactivate
 conda env update -f conda_dependencies.yml
@@ -15,7 +15,7 @@ conda activate mlops-encoders
 ### Create a OneHotEncoder in the training phase and use it in the prediction phase
 ```bash
 python train.py
-python infere.ce.py
+python inference.py
 ```
 The first script creates the OneHotEncoder and saves it in the `encoders` folder.
 The second script uses the OneHotEncoder to encode the data during the inference.
